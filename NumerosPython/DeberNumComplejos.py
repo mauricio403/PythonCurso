@@ -70,3 +70,28 @@ g = 1j
 import cmath
 
 print(cmath.phase(g))
+
+
+
+#haciendo cuentas
+
+coins = float(100)
+
+coins_global = 2000
+
+goal = coins * 20
+
+print(int(goal))
+
+
+
+goal2 = coins * 100
+
+print(int(goal2))
+
+
+coins2 = 500000
+
+resto = coins2 - 2000
+
+print(resto)
