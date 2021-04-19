@@ -68,3 +68,36 @@ print(s9.find("e", 30, 40)) # Indicamos start y end
 s = "Este es un curso de Python para hacer en casa o en cualquier lado"
 print(s.index("e"))
 
+#metodo len
+
+s = "Tengo hambre"
+
+print(len(s))
+
+
+#metodo input
+
+print("Introduce tu nombre: ")
+name = input("Nombre: ")
+
+
+string = "El camino está cerrado pero seguro que podemos encontrar una alternativa"
+print("Este es el string original:", end = " ")
+print(string)
+
+print("Introduce la palabra que quieras eliminar del string original:")
+word = input("Palabra: ")
+
+idx = string.find(word)
+substring = string[:idx] + string[(idx + len(word) + 1):]
+print(substring)
+
+
+print("Indica el destinitario de la canción:")
+name = input()
+
+s1 = "¡Cumpleaños feliz!"
+s2 = "Te deseamos todos"
+
+song = (s1 + "\n") * 2 + s2.replace("todos", name) + ",\n" + s1
+print(song)
