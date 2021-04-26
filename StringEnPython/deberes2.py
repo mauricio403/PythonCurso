@@ -23,3 +23,23 @@ subs = "su"
 print("Introduce una frase y yo te la devuelvo sustituyendo las dos primeras letras de la primera palabra por las letras {}".format(subs))
 s = input()
 print(s.replace(s[:2], subs))
+
+
+
+
+#deber en casa
+
+title = "se busca tripulante"
+
+message = "se ofrece puesto en la tripulación del capitán pyratilla para llevar a cabo labores de marinero. comida y bebida garantizada a lo largo de toda la aventura."
+
+contact = "para más información, ir al puerto y buscar al capitán pyratilla, ya famoso en este pueblo costero (evitar preguntar en el casino)."
+
+message1="se ofrece puesto en la tripulación del capitán pyratilla para llevar a cabo labores de marinero."
+
+message2="comida y bebida garantizada a lo largo de toda la aventura."
+
+contact.replace("pyratilla","PYRATILLA")
+
+print(title.upper()+"\n"+message1.replace("pyratilla","PYRATILLA").capitalize()+message2.capitalize()+"\n"+contact.replace("pyratilla","PYRATILLA").capitalize())
+
