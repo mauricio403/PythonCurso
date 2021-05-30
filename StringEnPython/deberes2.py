@@ -23,3 +23,4 @@ subs = "su"
 print("Introduce una frase y yo te la devuelvo sustituyendo las dos primeras letras de la primera palabra por las letras {}".format(subs))
 s = input()
 print(s.replace(s[:2], subs))
+
