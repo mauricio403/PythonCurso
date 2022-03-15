@@ -9,3 +9,4 @@ coins = 0
 
 coins +=100
 print(coins)
+
